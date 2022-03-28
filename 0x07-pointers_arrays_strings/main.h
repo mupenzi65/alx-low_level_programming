@@ -1,11 +1,5 @@
-include "main.h"
-
-/**
- * set_string - Sets the value of a pointer to a char.
- * @s: The pointer.
- * @to: The char.
- */
-void set_string(char **s, char *to)
-{
-	*s = to;
-}
+@@ -1,4 +1,3 @@
+int _putchar(char c);
+char *_memset(char *s, char b, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n);
+char *_strchr(char *s, char c);
